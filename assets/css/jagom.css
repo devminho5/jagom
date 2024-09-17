@@ -104,6 +104,25 @@
     padding: 0 16px;
 }
 
+.Featured-icon {
+    width: 40px;
+    height: 40px;
+    flex-grow: 0;
+    padding: 13px 12.7px 12.2px 14.5px;
+    border-radius: 28px;
+    border: solid 6px #fff9ef;
+    background-color: #ffebc5;
+    margin:0 auto;
+}
+
+.Vector {
+    width: 11.5px;
+    height: 14.8px;
+    flex-grow: 0;
+    margin: 0 1.2px 0 0;
+    object-fit:cover;
+  }
+
 ._Feature-text {
     height: 171px;
     align-self: stretch;
@@ -114,26 +133,6 @@
     align-items: center;
     gap: 16px;
     padding: 0;
-}
-
-.Featured-icon {
-    width: 40px;
-    height: 40px;
-    flex-grow: 0;
-    padding: 13px 12.7px 12.2px 14.5px;
-    border-radius: 28px;
-    border: solid 6px #fff9ef;
-    background-color: #ffebc5;
-    overflow:hidden;
-    margin:0 auto;
-}
-
-.Vector {
-    width: 11.5px;
-    height: 14.8px;
-    flex-grow: 0;
-    margin: 0 1.2px 0 0;
-    object-fit:cover;
 }
 
 .Text {
