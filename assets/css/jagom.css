@@ -6,7 +6,6 @@
     background-color: #fff;
   }
 
-
 .Features-section {
     width: 375px;
     height: 1419px;
@@ -48,4 +47,23 @@
     letter-spacing: -1.8px;
     text-align: center;
     color: #101828;
+}
+
+.Supporting-text {
+    height: 60px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: -0.9px;
+    text-align: center;
+    color: #858b97;
+  }
+  
+.Supporting-text .text-style-1 {
+    font-weight: normal;
 }
