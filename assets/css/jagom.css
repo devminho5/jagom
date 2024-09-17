@@ -19,6 +19,18 @@
     background-color: #fff;
   }
 
+.Heading-and-subheading {
+    height: 70px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 12px;
+    padding: 0;
+}
+
 .Subheading {
     height: 20px;
     align-self: stretch;
