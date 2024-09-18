@@ -122,7 +122,10 @@
 .Vector1 {
     width: 98%;
     height: 100%;
-    padding: 50%;
+    padding-left: 57%;
+    padding-right: 50%;
+    padding-top: 50%;
+    padding-bottom: 50%;
     display: flex;
     justify-content: center; 
     align-items: center;
