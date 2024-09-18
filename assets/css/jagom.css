@@ -119,6 +119,17 @@
     background-color: #ffebc5;
 }
 
+.Vector1 {
+    width: 98%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-left: 1px;
+    flex-grow: 0;
+    margin: 0;
+}
+
 .Vector {
     width: 98%;
     height: 100%;
