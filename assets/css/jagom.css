@@ -5,22 +5,22 @@ body {
 
 .jagombot_intro {
     width: 393px;
-    height: 1100px;
+    height: 2300px;
     flex-grow: 0;
-    padding: 54px 9px 456px;
+    padding-top: 1px;
     background-color: #fff;
 }
 
 .Features-section {
-    width: 375px;
+    width: 393px;
     height: 1419px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
+    justify-content: center;
+    align-items: center;
     gap: 48px;
-    margin: 0 0 52px;
-    padding: 0;
+    margin: 0px 0px 350px 0px;
+    padding: 0 0 17px;
     background-color: #fff;
 }
 
@@ -236,4 +236,136 @@ body {
     letter-spacing: -0.78px;
     text-align: center;
     color: #7db1ff;
-  }
+}
+
+.moreinfo {
+    width: 241px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.96px;
+    text-align: left;
+    color: #000;
+    margin: 80px;
+}
+
+.button-group {
+    width: 393x;
+    height: 400px;
+}
+
+.Rectangle-1 {
+    width: 275px;
+    height: 35px;
+    flex-grow: 0;
+    margin: 19px 0px 19px 30px;
+    padding: 20px 31.3px 11px 29px;
+    border-radius: 13px;
+    background-color: #ffebc5;
+}
+
+.Rectangle-2 {
+    width: 275px;
+    height: 35px;
+    flex-grow: 0;
+    margin: 19px 0px 19px 30px;
+    padding: 20px 31.3px 11px 29px;
+    border-radius: 13px;
+    background-color: #97a0c3;
+}
+
+.Rectangle-3 {
+    width: 275px;
+    height: 35px;
+    flex-grow: 0;
+    margin: 19px 0px 19px 30px;
+    padding: 20px 31.3px 11px 29px;
+    border-radius: 13px;
+    background-color: #ffebc5;
+}
+
+.Rectangle-4 {
+    width: 275px;
+    height: 35px;
+    flex-grow: 0;
+    margin: 19px 0px 19px 30px;
+    padding: 20px 31.3px 11px 29px;
+    border-radius: 13px;
+    background-color: #97a0c3;
+}
+
+.button-text-1 {
+    width: 180px;
+    height: 24px;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #e5a341;
+}
+
+.button-text-2 {
+    width: 180px;
+    height: 24px;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #fbf9f8;
+}
+
+.a1 {
+    position: relative;
+    top: 2px;
+    right: -85px;
+}
+
+.a2 {
+    position: relative;
+    top: 2px;
+    right: -113px;
+}
+
+.a3 {
+    position: relative;
+    top: 2px;
+    left: 58px;
+}
+
+.a4 {
+    position: relative;
+    top: 2px;
+    right: -96px;
+}
+
+.copyright {
+    width: 192px;
+    height: 17px;
+    font-family: NotoSansKR;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.12px;
+    text-align: left;
+    color: #a6a6a6;
+    display: grid;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
