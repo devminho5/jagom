@@ -2,7 +2,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
 }
 
 .jagom_intro {
@@ -536,10 +535,10 @@ body {
 }
 
 .blue-button-text {
-    width: 180px;
+    width: 190px;
     height: 24px;
     flex-grow: 0;
-    margin: 0 84px 0 0;
+    margin: 0 74px 0 0;
     font-family: Inter;
     font-size: 15px;
     font-weight: 600;
