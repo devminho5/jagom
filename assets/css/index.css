@@ -454,8 +454,12 @@ body {
     border-radius: 15px;
     background-color: #ffebc5;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     align-items: center;
+}
+
+.orange-button:hover {
+    background: #fff4df;
 }
 
 .orange-button-text {
@@ -533,6 +537,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.blue-button:hover {
+    background: #7882a7;
+}
+
 
 .blue-button-text {
     width: 190px;
