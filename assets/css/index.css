@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .jagom_intro {
@@ -10,7 +10,7 @@ body {
     flex-grow: 0;
     padding: 54px 9px 29px;
     background-color: #fff;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .intro {
