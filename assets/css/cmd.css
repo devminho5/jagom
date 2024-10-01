@@ -1,104 +1,65 @@
-body {
+html, body {
+    width: 100%;
     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+body {
+    width: 393px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 74px;
 }
 
 header {
-    width: 393px;
-    height: 454px;
+    width: 329px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     gap: 32px;
-    margin: 0 11px 86px;
+    margin: 0 0 86px;
     padding: 0;
-    align-items: center;
-}
-
-.jagom_command_info {
-    width: 393px;
-    height: 2300px;
-    padding: 75px 33px 29px 34px;
-    background-color: #fff;
-    margin: auto;
+    height: auto;
 }
 
 .tag-Group {
-    width: 393px;
-    height: 76px;
-    flex-grow: 0;
-    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
-.tag-1 {
-    width: 107px;
-    height: 35px;
-}
-
-.Rectangle-1 {
-    width: 77px;
-    height: 16px;
-    flex-grow: 0;
-    padding: 9px 13px 8px 14px;
+.tag-1, .tag-2, .tag-3 {
+    height: 32px;
+    padding: 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 9px;
     border: solid 0.7px #8185e3;
     background-color: #f9f8f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.tag-text-1 {
-    width: 75px;
-    height: 15px;
-    flex-grow: 0;
+.tag-1, .tag-2 {
+    width: auto;
+}
+
+.tag-3 {
+    width: auto;
+    margin-left: calc(105px); /* tag-2의 너비와 간격만큼 좌측에서 띄워 정렬 */
+}
+
+.Rec_Text {
     font-family: Inter;
     font-size: 12px;
     font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
     letter-spacing: -0.72px;
-    text-align: left;
+    text-align: center;
     color: #8185e3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tag-2 {
-    width: 107px;
-    height: 35px;
-    display: flex;
-    flex-direction: row;
-}
-
-.Rectangle-2 {
-    width: 77px;
-    height: 16px;
-    padding: 9px 13px 8px 14px;
-    border-radius: 9px;
-    border: solid 0.7px #8185e3;
-    background-color: #f9f8f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tag-text-2 {
-    width: 75px;
-    height: 15px;
-    flex-grow: 0;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.72px;
-    text-align: left;
-    color: #8185e3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
