@@ -29,12 +29,13 @@ header {
 }
 
 .tag-Group {
-    width: 100%;
+    width: 97%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     gap: 12px;
     align-items: flex-start;
+    order: 1;
 }
 
 .tag-1, .tag-2 {
@@ -60,7 +61,7 @@ header {
 }
 
 .tag-3 {
-    width: 190px;
+    width: 170px;
     height: 32px;
     display: flex;
     justify-content: center;
@@ -80,4 +81,40 @@ header {
     letter-spacing: -0.72px;
     text-align: center;
     color: #8185e3;
+}
+
+.title {
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: -1.44px;
+    text-align: center;
+    color: #5f606f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    order: 2;
+}
+
+.title .book-emoji {
+    display: block;
+}
+
+.title .title-text {
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: -1.44px;
+    text-align: center;
+    color: #5f606f;
+    display: flex;
+    flex-direction: column;
 }
