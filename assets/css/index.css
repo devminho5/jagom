@@ -277,6 +277,18 @@ body {
     background-color: #ffebc5;
 }
 
+.orange-button:before {
+        height: 0%;
+        width: 2px;
+}
+
+.orange-button:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,0.1),
+              -4px -4px 6px 0 rgba(116, 125, 136, 0.1), 
+            inset -4px -4px 6px 0 rgba(255,255,255,0.01),
+            inset 4px 4px 6px 0 rgba(0, 0, 0, 0.05);
+}
+
 .orange-button-text {
     font-family: Inter;
     font-size: 15px;
@@ -289,6 +301,18 @@ body {
 
 .blue-button {
     background-color: #96a0c3;
+}
+
+.blue-button:before {
+    height: 0%;
+    width: 2px;
+}
+
+.blue-button:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,0.1),
+              -4px -4px 6px 0 rgba(116, 125, 136, 0.1), 
+            inset -4px -4px 6px 0 rgba(255,255,255,0.01),
+            inset 4px 4px 6px 0 rgba(0, 0, 0, 0.05);
 }
 
 .blue-button-text {
