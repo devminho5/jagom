@@ -106,6 +106,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2%;
     gap: 8px;
     order: 2;
 }
@@ -151,14 +152,15 @@ header {
 }
 
 .callout-contents {
-    width: 287px;
-    height: 203px;
+    width: 300px;
+    height: auto;
     flex-grow: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     box-sizing: border-box;
     gap: 10px;
+    scale: 0.97;
 }
 
 .callout-title {
@@ -183,8 +185,9 @@ header {
 
 .callout-padding {
     padding-left: 30px;
+    padding-bottom: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 12.5px;
@@ -192,28 +195,57 @@ header {
     line-height: 170%;
     letter-spacing: -0.72px;
     color: #585ba4;
-    width: 100%;
     box-sizing: border-box;
+    gap: 10px;
 }
 
-.yellow-label {
-    height: 32px;
+.callout-padding1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: fit-content;
+    gap : 5px;
+    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
+    font-size: 12.5px;
+    font-weight: 200;
+    line-height: 170%;
+    letter-spacing: -0.72px;
+    color: #585ba4;
+}
+
+.yellow-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding-left: 30px;
 }
 
 .yellow-label .Rectangle-3 {
     height: 29px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     background-color: #fce8b6;
     padding: 2px 10px;
 }
+
+.blue-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.blue-label .Rectangle-4 {
+    height: 29px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #E7EDF8;
+    padding: 2px 10px;
+}
+
 
 .feature-command {
     height: 15px;
@@ -230,6 +262,25 @@ header {
     scale: 0.95;
 }
 
+.feature-command1 {
+    height: 15px;
+    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #585BA4;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0.95;
+}
+
 .feature-command .text-style-1 {
+    letter-spacing: -0.9px;
+}
+
+.feature-command1 .text-style-1 {
     letter-spacing: -0.9px;
 }
