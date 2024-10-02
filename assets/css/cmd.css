@@ -492,6 +492,7 @@ header {
     justify-content: center;
     align-items: left;
     flex-grow: 0;
+    margin-top: 3.5%;
     padding: 0 10px;
     scale: 0.95;
     z-index: 10;
