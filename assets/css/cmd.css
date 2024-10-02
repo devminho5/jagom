@@ -28,6 +28,33 @@ header {
     height: auto;
 }
 
+.back-to-home {
+    height: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 13px;
+    padding: 0;
+    align-self: flex-start;
+}
+
+.back-to-home span {
+    height: 14px;
+    flex-grow: 0;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    text-align: left;
+    color: #6a6b7c;
+    text-decoration: underline;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .tag-Group {
     width: 97%;
     display: flex;
@@ -88,8 +115,6 @@ header {
     font-family: Inter;
     font-size: 27px;
     font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
     letter-spacing: -1.44px;
     text-align: center;
     color: #5f606f;
@@ -109,12 +134,107 @@ header {
     flex-grow: 0;
     font-family: Inter;
     font-size: 27px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
+    font-weight: 700;
     letter-spacing: -1.44px;
     text-align: center;
     color: #5f606f;
+}
+
+.callout {
+    width: 100%;
+    height: 241px;
+    flex-grow: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 3;
+}
+
+.callout-box {
+    width: 100%;
+    height: 100%;
+    flex-grow: 0;
+    margin: 0;
+    border-radius: 11px;
+    border: solid 0.3px #00000054;
+    background-color: #f6f6f7;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callout-contents {
+    width: 287px;
+    height: 203px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.callout-title {
+    display: block;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.84px;
+    text-align: left;
+    color: #736db3;
+    width: 100%;
+}
+
+.callout-padding {
+    padding-left: 30px;
+    display: block;
+    font-family: Inter;
+    font-size: 12.5px;
+    font-weight: 200;
+    line-height: 170%;
+    letter-spacing: -0.72px;
+    text-align: left;
+    color: #585ba4;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.yellow-label {
+    height: 32px;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content; /* width를 내용에 맞춰 조정 */
+    padding-left: 30px;
+    scale: 95%;
+}
+
+.yellow-label .Rectangle-3 {
+    height: 29px;
+    flex-grow: 0;
+    border-radius: 10px;
+    background-color: #fce8b6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* 너비를 yellow-label에 맞춤 */
+    padding: 2px 10px 2px 10px;
+}
+
+.feature-command {
+    height: 15px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #e69d30;
+    letter-spacing: 3px;
+    white-space: nowrap; /* 텍스트가 줄바꿈되지 않도록 설정 */
+}
+
+.feature-command .text-style-1 {
+    letter-spacing: -0.9px;
 }
