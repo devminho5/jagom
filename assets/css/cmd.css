@@ -5,6 +5,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 74px;
+    line-height: 1.5;
 }
 
 header {
@@ -42,10 +44,10 @@ header {
 .back-to-home span {
     height: 14px;
     flex-grow: 0;
-    font-family: Pretendard;
+    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 12px;
     font-weight: normal;
-    line-height: normal;
+    line-height: 1.4;
     letter-spacing: -0.96px;
     text-align: left;
     color: #6a6b7c;
@@ -65,8 +67,8 @@ header {
     order: 1;
 }
 
-.tag-1, .tag-2 {
-    height: 32px;
+.tag-1, .tag-2, .tag-3 {
+    min-height: 32px;
     padding: 0 12px;
     display: flex;
     justify-content: center;
@@ -74,35 +76,17 @@ header {
     border-radius: 9px;
     border: solid 0.7px #8185e3;
     background-color: #f9f8f7;
-    position: relative;
-    width: auto;
-}
-
-.tag-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
     width: auto;
     position: relative;
+    line-height: 32px;
 }
 
 .tag-3 {
-    width: 170px;
-    height: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 9px;
-    border: solid 0.7px #8185e3;
-    background-color: #f9f8f7;
     margin-left: auto;
-    position: relative;
-    align-self: flex-start;
 }
 
 .Rec_Text {
-    font-family: Inter;
+    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: -0.72px;
@@ -112,7 +96,7 @@ header {
 
 .title {
     flex-grow: 0;
-    font-family: Inter;
+    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 27px;
     font-weight: 600;
     letter-spacing: -1.44px;
@@ -126,13 +110,14 @@ header {
     order: 2;
 }
 
-.title .book-emoji {
+.title .book-emoji svg {
     display: block;
+    margin-bottom: 15%;
 }
 
 .title .title-text {
     flex-grow: 0;
-    font-family: Inter;
+    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 27px;
     font-weight: 700;
     letter-spacing: -1.44px;
@@ -177,8 +162,10 @@ header {
 }
 
 .callout-title {
-    display: block;
-    font-family: Inter;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: -0.84px;
@@ -187,15 +174,23 @@ header {
     width: 100%;
 }
 
+.callout-title span, .callout-title .nametag svg {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
 .callout-padding {
     padding-left: 30px;
-    display: block;
-    font-family: Inter;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 12.5px;
     font-weight: 200;
     line-height: 170%;
     letter-spacing: -0.72px;
-    text-align: left;
     color: #585ba4;
     width: 100%;
     box-sizing: border-box;
@@ -203,36 +198,36 @@ header {
 
 .yellow-label {
     height: 32px;
-    flex-grow: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: fit-content; /* width를 내용에 맞춰 조정 */
+    width: fit-content;
     padding-left: 30px;
-    scale: 95%;
 }
 
 .yellow-label .Rectangle-3 {
     height: 29px;
-    flex-grow: 0;
-    border-radius: 10px;
-    background-color: #fce8b6;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%; /* 너비를 yellow-label에 맞춤 */
-    padding: 2px 10px 2px 10px;
+    border-radius: 10px;
+    background-color: #fce8b6;
+    padding: 2px 10px;
 }
 
 .feature-command {
     height: 15px;
-    font-family: Inter;
+    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 15px;
     font-weight: 600;
     text-align: center;
     color: #e69d30;
     letter-spacing: 3px;
-    white-space: nowrap; /* 텍스트가 줄바꿈되지 않도록 설정 */
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0.95;
 }
 
 .feature-command .text-style-1 {
