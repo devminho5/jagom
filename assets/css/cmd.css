@@ -212,6 +212,10 @@ header {
     color: #585ba4;
 }
 
+.callout-padding1 b {
+    font-weight: 500;
+}
+
 .yellow-label {
     display: inline-flex;
     align-items: center;
