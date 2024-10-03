@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 74px;
+    margin-top: 35px;
     line-height: 1.5;
 }
 
@@ -316,7 +316,6 @@ header {
 }
 
 .section-title {
-    width: 265px;
     height: 24px;
     flex-grow: 0;
     display: flex;
@@ -338,7 +337,6 @@ header {
 }
 
 .title-text1 {
-    width: 234px;
     height: 24px;
     flex-grow: 0;
     font-family: Inter;
