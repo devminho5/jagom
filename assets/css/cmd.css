@@ -455,6 +455,10 @@ header {
     font-weight: 600;
 }
 
+.feature-info b {
+    font-weight: 600;
+}
+
 .feature-info a:hover {
     text-decoration: underline;
 }
