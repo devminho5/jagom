@@ -1,6 +1,6 @@
 html, body {
     width: 100%;
-    height: 2370px;
+    height: auto;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,12 +11,12 @@ html, body {
 
 body {
     width: 393px;
-    height: 2370px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 1.5;
-    margin-top: -5%;
+    margin-top: 2%;
 }
 
 header {
@@ -45,7 +45,6 @@ header {
 .back-to-home span {
     height: 14px;
     flex-grow: 0;
-    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 12px;
     font-weight: normal;
     line-height: 1.4;
@@ -60,7 +59,6 @@ header {
 .back-to-home span:hover {
     text-decoration: underline;
 }
-
 
 .tag-Group {
     width: 97%;
@@ -91,7 +89,6 @@ header {
 }
 
 .Rec_Text {
-    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: -0.72px;
@@ -101,7 +98,6 @@ header {
 
 .title {
     flex-grow: 0;
-    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 27px;
     font-weight: 600;
     letter-spacing: -1.44px;
@@ -123,7 +119,6 @@ header {
 
 .title .title-text {
     flex-grow: 0;
-    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 27px;
     font-weight: 700;
     letter-spacing: -1.44px;
@@ -172,7 +167,6 @@ header {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: -0.84px;
@@ -194,7 +188,6 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 12.5px;
     font-weight: 200;
     line-height: 170%;
@@ -210,7 +203,6 @@ header {
     align-items: center;
     justify-content: center;
     gap: 5px;
-    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 12.5px;
     font-weight: 200;
     line-height: 170%;
@@ -258,7 +250,6 @@ header {
 
 .feature-command {
     height: 15px;
-    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 15px;
     font-weight: 600;
     text-align: center;
@@ -273,7 +264,6 @@ header {
 
 .feature-command1 {
     height: 15px;
-    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 15px;
     font-weight: 600;
     text-align: center;
@@ -296,7 +286,7 @@ header {
 
 .content-section {
     width: 307px;
-    height: 1539px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -341,11 +331,8 @@ header {
 .title-text1 {
     height: 24px;
     flex-grow: 0;
-    font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
     line-height: normal;
     letter-spacing: -1.8px;
     text-align: center;
@@ -422,7 +409,6 @@ header {
 }
 
 .y_feature-command {
-    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
@@ -439,11 +425,8 @@ header {
     display: inline-block;
     align-self: stretch;
     flex-grow: 0;
-    font-family:'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 13px;
     font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 170%;
     letter-spacing: -0.85px;
     text-align: left;
@@ -509,7 +492,6 @@ header {
 }
 
 .b_feature-command {
-    font-family: 'Pretendard', 'Segoe UI', Tahoma, Geneva, sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
@@ -524,4 +506,65 @@ header {
 
 .b_feature-command .text-style-2 {
     color: #adb8cd;
+}
+
+.relative_action {
+    height: auto;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 15px;
+    margin: -4% 0% 7% 0%;
+    padding-left: 4%;
+}
+
+.relative_action_1 {
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 18px;
+}
+
+.relative_icon {
+    width: 13px;
+    height: 13px;
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relative_icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.relative_text {
+    flex-grow: 0;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 150%;
+    letter-spacing: -1.04px;
+    text-align: left;
+    color: #4e4343;
+}
+
+.relative_text .text-style-1 {
+    color: #a9abb1;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    font-family: 'Pretendard', sans-serif;
+    font-size: 12px;
+    color: #a6a6a6;
+    margin: 0px 0 50px 0;
 }
